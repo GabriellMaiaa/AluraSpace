@@ -1,7 +1,8 @@
+import PaginaInicial from './paginas/PaginaInicial'
 
 function App() {
   return (
-    <h1>App</h1>
+    <PaginaInicial/>
   );
 }
 export default App;
