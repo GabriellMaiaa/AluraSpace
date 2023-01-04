@@ -16,7 +16,7 @@ body {
     background: linear-gradient($azul-escuro, $azul-claro);
   }
   body::-webkit-scrollbar-thumb {
-    background-color: #154580;
+    background-color: $azul-claro;
     border-radius: 20px;
   }
   
@@ -25,13 +25,13 @@ body {
     src: local("GandhiSansRegular"),
       url("../assets/fontes/GandhiSans-Regular.otf") format("truetype");
     font-weight: 500;
-    display: swap;
+    font-display: swap;
   }
   @font-face {
     font-family: "GandhiSansBold";
     src: local("GandhiSansBold"),
       url("../assets/fontes/GandhiSans-Bold.otf") format("truetype");
     font-weight: 700;
-    display: swap;
+    font-display: swap;// Ele faz com que nossa fonte seja melhor carrea=gada no navegador
   }
 

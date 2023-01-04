@@ -1,5 +1,6 @@
 import React from 'react'
 import Cabecalho from '../../componentes/Cabecalho'
+import Galeria from '../../componentes/Galeria'
 import Menu from '../../componentes/Menu'
 import Banner from './banner.png'
 import styles from './PaginaInicial.module.scss'
@@ -17,6 +18,9 @@ const index = () => {
         </div>
       </section>
     </main>
+    <div>
+      <Galeria/>
+    </div>
     </>
   )
 }
